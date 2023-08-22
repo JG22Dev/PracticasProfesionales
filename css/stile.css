@@ -1,16 +1,105 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Dancing+Script:wght@700&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hind:wght@500&family=Roboto:ital,wght@0,500;1,400&display=swap');
 
 *{
     box-sizing: border-box;
 }
 
-html{
-    scroll-behavior: smooth;
+
+/*SECCION HEADER*/
+
+header{
+    margin-top:15px;
+    text-align: center;
+    height: 7vh;
 }
 
+header a{
+    padding: 5px;
+   text-decoration: none; 
+   color: black;
+   font-family: 'Bebas Neue', sans-serif; 
+}
+
+header a:hover{
+    color: #fff;
+    background-color: black;
+    border-radius: 100%;
+}
+
+/*SECCION CUERPO CON ETIQUETAS PADRE*/
 body{
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    /*font-family: 'Hind', sans-serif;
+    font-family: 'Roboto', sans-serif;*/
     margin: 0;
-    background-color: rgb(195, 195, 195);
+    background-color: #ededed;
+}
+
+.container{
+    
+    
+    align-items: center;
+   
+    justify-items: center;
+}
+
+
+
+
+
+/*SECCION SAMSUNG*/
+#samsung{
+    padding: 20px;
+    height: 70vh;
+    background-color: #fff;
+}
+
+
+.video{
+    width: 450px;
+}
+
+
+/*SECCION PRESENTACION*/
+#presentacion{
+    padding: 20px;
+    height: 210vh;
+}
+
+.img-1{
+    width: 300px;
+    height: 300px;
+    margin-left: 80px;
+    margin-top: 1px;
+    border: 1px solid #bebbbb;
+}
+ul {
+   list-style-type: none;
+}
+
+
+/*SECCION CARACTERISTICAS*/
+#caracteristicas{
+    padding: 20px;
+    height: 100vh;
+    background-color: #fff;
+}
+/*SECCION CONTACTO*/
+#contacto{
+    text-align: center;
+    padding: 20px;
+    height: 20vh;
+}
+a img {
+    border-radius: 55%;
+}
+
+/*PIE DE PAGINA*/
+footer{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    
 }
 
