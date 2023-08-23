@@ -8,16 +8,23 @@
 /*SECCION HEADER*/
 
 header{
-    margin-top:15px;
+    position: fixed;
     text-align: center;
     height: 7vh;
+    padding-top: 12px;
+    background-color: #ededed;
+    width: 100%; 
+    
+}
+header picture img{
+    display: none;
 }
 
 header a{
     padding: 5px;
-   text-decoration: none; 
-   color: black;
-   font-family: 'Bebas Neue', sans-serif; 
+    text-decoration: none; 
+    color: black;
+    font-family: 'Bebas Neue', sans-serif; 
 }
 
 header a:hover{
@@ -88,18 +95,49 @@ ul {
 #contacto{
     text-align: center;
     padding: 20px;
-    height: 20vh;
+    height: 25vh;
+    
 }
 a img {
     border-radius: 55%;
+    margin: 10px;
+    
 }
 
 /*PIE DE PAGINA*/
 footer{
     text-align: center;
-    margin: 20px;
     padding: 20px;
     background-color: #fff;
-    
 }
 
+@media (min-width: 850px){
+
+    /*SECCION HEADER*/
+
+   header{
+    padding-top: 0px;
+    height: 10vh;
+   
+
+   }
+   
+    header .nav{
+        flex-direction: column;
+        
+    }
+
+    header picture img {
+        display: block;
+        
+       padding-top: 10px;
+       padding-left: 10px;
+        
+    
+       
+    
+    }
+    
+
+
+}
