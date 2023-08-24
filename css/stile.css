@@ -29,9 +29,8 @@ header nav a{
 }
 
 header nav a:hover{
-    color: #fff;
-    background-color: black;
-    border-radius: 100%;
+    color: #0b228a;
+    
 }
 
 /*SECCION CUERPO CON ETIQUETAS PADRE*/
