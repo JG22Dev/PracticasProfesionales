@@ -1,12 +1,10 @@
+/*IMPORTACION DE GOOGLE FONTS*/
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hind:wght@500&family=Roboto:ital,wght@0,500;1,400&display=swap');
-
+/* SECCION UNIVERSAL*/
 *{
     box-sizing: border-box;
 }
-
-
 /*SECCION HEADER*/
-
 header{
     position:static;
     text-align: center;
@@ -32,17 +30,12 @@ header nav a:hover{
     color: #283b90;
     
 }
-
-/*SECCION CUERPO CON ETIQUETAS PADRE*/
+/*SECCION CUERPO*/
 body{
     font-family: 'Bebas Neue', sans-serif;
-    /*font-family: 'Hind', sans-serif;
-    font-family: 'Roboto', sans-serif;*/
     margin: 0;
     background-color: #ededed;
 }
-
-
 
 /*SECCION SAMSUNG*/
 #samsung{
@@ -51,32 +44,23 @@ body{
     height: 50%;
     background-color: #fff;
 }
-
-
 .video{
     width: 90%;
-    
 }
-
-
 /*SECCION PRESENTACION*/
 #presentacion{
     text-align: center;
     padding: 20px;
     height: 190%;
 }
-
 .img-1{
     width: 75%;
-    margin-top: 1px;
-    border: 1px solid #bebbbb;
+    margin-top: 1px; 
 }
 ul {
    list-style-type: none;
    text-align:center;
 }
-
-
 /*SECCION CARACTERISTICAS*/
 #caracteristicas{
     text-align: center;
@@ -84,84 +68,64 @@ ul {
     height: 100%;
     background-color: #fff;
 }
-
 .tabla{
     display: grid;
     place-content: center;
-    text-align: start;
-        
+    text-align: start; 
 }
 .tabla div {
     margin: 15px;
     padding: 15px;
 }
-
 tbody{
     border-bottom: 1px solid #ededed;
     padding: 15px;
-    margin: 5px;
-    
+    margin: 5px;    
 }
-
-
-
-
-
-
-
+th ,td {
+    text-align: start;
+}
 /*SECCION CONTACTO*/
 #contacto{
     text-align: center;
     padding: 20px;
     height: 25%;
-    
 }
 a img {
     border-radius: 55%;
     margin: 10px;
-    
 }
-
 /*PIE DE PAGINA*/
 footer{
     text-align: center;
     padding: 20px;
     background-color: #fff;
 }
-
-
+/*MEDIA QUERIS PARA VERSION RESPONSIVE TABLET*/
 @media (min-width: 480px){
     .tabla{
         display: grid;
         grid-template-columns: 1fr 1fr;  
     }
-
 }
-
+/*MEDIA QUERIS PARA VERSION RESPONSIVE*/
 @media (min-width: 800px){
-
     /*SECCION HEADER*/
-
-   header{
-    position:sticky;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+    header{
+        position:sticky;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
    }
-
     header img {
         display: flex;
         align-items: center;
         width: 120px;
     }
-
     header nav a{
         margin-right: 15px;
     }
-    
     /*SECCION TAMAÑO DE LETRAS*/
-    
     h1{
         font-size: 2em;
     }
@@ -174,25 +138,17 @@ footer{
     li{
         font-size: 1.2em;
     }
-
-
     .video{
         width: 85%;
-        
     }
-
     .img-1{
         width: 60%;
         margin-top: 1px;
-        border: 1px solid #bebbbb;
     }
-
-    
     .tabla{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-    
     tbody{
         border-bottom: none;
         border-right: 1px solid #ededed;
