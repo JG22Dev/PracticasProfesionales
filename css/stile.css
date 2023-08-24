@@ -29,7 +29,7 @@ header nav a{
 }
 
 header nav a:hover{
-    color: #0b228a;
+    color: #283b90;
     
 }
 
@@ -79,10 +79,36 @@ ul {
 
 /*SECCION CARACTERISTICAS*/
 #caracteristicas{
+    text-align: center;
     padding: 20px;
-    height: 100vh;
+    height: 100%;
     background-color: #fff;
 }
+
+.tabla{
+    display: grid;
+    place-content: center;
+    text-align: start;
+        
+}
+.tabla div {
+    margin: 15px;
+    padding: 15px;
+}
+
+tbody{
+    border-bottom: 1px solid #ededed;
+    padding: 15px;
+    margin: 5px;
+    
+}
+
+
+
+
+
+
+
 /*SECCION CONTACTO*/
 #contacto{
     text-align: center;
@@ -103,7 +129,16 @@ footer{
     background-color: #fff;
 }
 
-@media (min-width: 850px){
+
+@media (min-width: 480px){
+    .tabla{
+        display: grid;
+        grid-template-columns: 1fr 1fr;  
+    }
+
+}
+
+@media (min-width: 800px){
 
     /*SECCION HEADER*/
 
@@ -152,8 +187,17 @@ footer{
         border: 1px solid #bebbbb;
     }
 
-
+    
+    .tabla{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
+    tbody{
+        border-bottom: none;
+        border-right: 1px solid #ededed;
+    }
+    .table-1{
+        border-left: 1px solid #ededed;
+    }
 }
-
-
-
