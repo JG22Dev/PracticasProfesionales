@@ -51,10 +51,10 @@ body{
 #presentacion{
     text-align: center;
     padding: 20px;
-    height: 190%;
+    height: 100%;
 }
 .img-1{
-    width: 75%;
+    width: 60%;
     margin-top: 1px; 
 }
 ul {
@@ -106,6 +106,10 @@ footer{
     .tabla{
         display: grid;
         grid-template-columns: 1fr 1fr;  
+    }   
+    .img-1{
+        width: 40%;
+         
     }
 }
 /*MEDIA QUERIS PARA VERSION RESPONSIVE*/
@@ -139,10 +143,10 @@ footer{
         font-size: 1.2em;
     }
     .video{
-        width: 85%;
+        width: 80%;
     }
     .img-1{
-        width: 60%;
+        width: 30%;
         margin-top: 1px;
     }
     .tabla{
