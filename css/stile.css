@@ -8,26 +8,27 @@
 /*SECCION HEADER*/
 
 header{
-    position: fixed;
+    position:static;
     text-align: center;
-    height: 7vh;
-    padding-top: 12px;
+    justify-content: space-between;
+    height: 7%;
+    padding-top: 10px;
     background-color: #ededed;
-    width: 100%; 
+    width: 100%;
     
 }
-header picture img{
+header img{
     display: none;
 }
 
-header a{
-    padding: 5px;
+header nav a{
+    margin-right: 5px;
     text-decoration: none; 
     color: black;
     font-family: 'Bebas Neue', sans-serif; 
 }
 
-header a:hover{
+header nav a:hover{
     color: #fff;
     background-color: black;
     border-radius: 100%;
@@ -42,46 +43,38 @@ body{
     background-color: #ededed;
 }
 
-.container{
-    
-    
-    align-items: center;
-   
-    justify-items: center;
-}
-
-
-
 
 
 /*SECCION SAMSUNG*/
 #samsung{
+    text-align: center;
     padding: 20px;
-    height: 70vh;
+    height: 50%;
     background-color: #fff;
 }
 
 
 .video{
-    width: 450px;
+    width: 90%;
+    
 }
 
 
 /*SECCION PRESENTACION*/
 #presentacion{
+    text-align: center;
     padding: 20px;
-    height: 210vh;
+    height: 190%;
 }
 
 .img-1{
-    width: 300px;
-    height: 300px;
-    margin-left: 80px;
+    width: 75%;
     margin-top: 1px;
     border: 1px solid #bebbbb;
 }
 ul {
    list-style-type: none;
+   text-align:center;
 }
 
 
@@ -95,7 +88,7 @@ ul {
 #contacto{
     text-align: center;
     padding: 20px;
-    height: 25vh;
+    height: 25%;
     
 }
 a img {
@@ -116,28 +109,52 @@ footer{
     /*SECCION HEADER*/
 
    header{
-    padding-top: 0px;
-    height: 10vh;
-   
-
+    position:sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
    }
-   
-    header .nav{
-        flex-direction: column;
+
+    header img {
+        display: flex;
+        align-items: center;
+        width: 120px;
+    }
+
+    header nav a{
+        margin-right: 15px;
+    }
+    
+    /*SECCION TAMAÑO DE LETRAS*/
+    
+    h1{
+        font-size: 2em;
+    }
+    h3{
+        font-size: 1.7em;
+    }
+    p{
+        font-size: 1.3em;
+    }
+    li{
+        font-size: 1.2em;
+    }
+
+
+    .video{
+        width: 85%;
         
     }
 
-    header picture img {
-        display: block;
-        
-       padding-top: 10px;
-       padding-left: 10px;
-        
-    
-       
-    
+    .img-1{
+        width: 60%;
+        margin-top: 1px;
+        border: 1px solid #bebbbb;
     }
-    
 
 
 }
+
+
+
