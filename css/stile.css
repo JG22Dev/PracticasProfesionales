@@ -1,9 +1,17 @@
 /*IMPORTACION DE GOOGLE FONTS*/
+/*IMPORTACION DE GOOGLE FONTS*/
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hind:wght@500&family=Roboto:ital,wght@0,500;1,400&display=swap');
 /* SECCION UNIVERSAL*/
 *{
     box-sizing: border-box;
 }
+
+
+.parrafoTitulo{
+    color:#283b90;
+}
+
+
 /*SECCION HEADER*/
 header{
     position:static;
@@ -28,7 +36,6 @@ header nav a{
 
 header nav a:hover{
     color: #283b90;
-    
 }
 /*SECCION CUERPO*/
 body{
@@ -58,8 +65,8 @@ body{
     margin-top: 1px; 
 }
 ul {
-   list-style-type: none;
-   text-align:center;
+list-style-type: none;
+text-align:center;
 }
 /*SECCION CARACTERISTICAS*/
 #caracteristicas{
@@ -85,6 +92,9 @@ tbody{
 th ,td {
     text-align: start;
 }
+tr:hover{
+    background-color: #ededed;
+}
 /*SECCION CONTACTO*/
 #contacto{
     text-align: center;
@@ -109,7 +119,7 @@ footer{
     }   
     .img-1{
         width: 40%;
-         
+        
     }
 }
 /*MEDIA QUERIS PARA VERSION RESPONSIVE*/
@@ -120,7 +130,7 @@ footer{
         display: flex;
         justify-content: space-between;
         align-items: center;
-   }
+}
     header img {
         display: flex;
         align-items: center;
